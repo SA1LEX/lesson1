@@ -9,6 +9,6 @@ meme_dict = {
 word = input("Привет! Введите непонятное слово (большими буквами!): ")
 
 if word in meme_dict.keys():
-    print("Слово найдено")
+    print(meme_dict[word])
 else:
     print("Слово не найдено")
